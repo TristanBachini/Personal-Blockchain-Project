@@ -5,17 +5,17 @@ ganache_url = "http://127.0.0.1:7545"
 web3 = Web3(Web3.HTTPProvider(ganache_url))
 
 #address of account 1
-account_1 = "0x871eA6D984Dd571D67516dBa00c9B7B0a2e624b3"
+account_1 = "0x08b70f7CF2a5fACaCC2A4F4c71d219A45B636341"
 
 #address of account 2
-account_2 = "0xBA5882316c5288f59401062C8815Cc663a92b7cF"
+account_2 = "0xC6d90A9f15d03D3565cC67EC815D6aF0C0febFAC"
 
 #private key of account 1
 #We need pkey of account 1, so that the blockchain knows that it is okay to send funds 
 #from account 1.
 #Kind of like a password.
 #Allows us to authorize or "sign" transactions.
-private_key = "0xcf588ccb26fd3ebd0c2950c045226e81266a8c612bcf86640004ac8ceecdc792"
+private_key = "0xd768f0556f3b6197552682be1e65a192510ce3ebb3dfb8a778fe3bf58ff02ccf"
 
 #we want to send funds from account 1 to account 2
 
